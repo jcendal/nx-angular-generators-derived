@@ -1,6 +1,6 @@
 {
   "name": "@jcendal/nx-angular-generators-derived",
-  "version": "0.0.0",
+  "version": "1.1.0",
   "description": "Nx Angular generators wrapper that mimics the old 'derived' behavior for component generation.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
