@@ -47,7 +47,9 @@ jobs:
       - name: Run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run release
+          CI: true
+          NX_INTERACTIVE: false
+        run: npm run release -- --yes
 
       - name: Push changes
         run: |
