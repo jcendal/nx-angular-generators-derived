@@ -1,0 +1,23 @@
+{
+  "name": "nx-angular-generators-derived",
+  "$schema": "./node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "outputs": ["{projectRoot}/lib"],
+      "options": {
+        "command": "npm run build"
+      }
+    },
+    "publish": {
+      "executor": "@nx/js:release-publish",
+      "options": {
+        "packageRoot": ".",
+        "registry": "https://registry.npmjs.org"
+      }
+    }
+  },
+  "tags": []
+}

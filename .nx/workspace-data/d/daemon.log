@@ -1,0 +1,102 @@
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.393Z - Started listening on: /private/var/folders/g4/z2_4vbss3qgg9ff8jtrqxxs40000gn/T/8282e0e25e139f5e18e5/d.sock
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.395Z - [WATCHER]: Subscribed to changes within: /Users/jorgecendal/Projects/nx-angular-generators-derived (native)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.396Z - Established a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.397Z - Established a connection. Number of open connections: 2
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.397Z - Closed a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.398Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.398Z - Done responding to the client Shutdown initiated
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.398Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.399Z - [WATCHER]: Stopping the watcher for /Users/jorgecendal/Projects/nx-angular-generators-derived (sources)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.400Z - Closed a connection. Number of open connections: 0
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.400Z - [WATCHER]: Stopping the watcher for /Users/jorgecendal/Projects/nx-angular-generators-derived (outputs)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:13:13.400Z - Server stopped because: "Request to shutdown"
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.788Z - Started listening on: /private/var/folders/g4/z2_4vbss3qgg9ff8jtrqxxs40000gn/T/8282e0e25e139f5e18e5/d.sock
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.790Z - [WATCHER]: Subscribed to changes within: /Users/jorgecendal/Projects/nx-angular-generators-derived (native)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.790Z - Established a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.791Z - Established a connection. Number of open connections: 2
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.791Z - Closed a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.792Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.792Z - Done responding to the client Shutdown initiated
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.792Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.793Z - [WATCHER]: Stopping the watcher for /Users/jorgecendal/Projects/nx-angular-generators-derived (sources)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.793Z - Closed a connection. Number of open connections: 0
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.793Z - [WATCHER]: Stopping the watcher for /Users/jorgecendal/Projects/nx-angular-generators-derived (outputs)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:10.794Z - Server stopped because: "Request to shutdown"
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.080Z - Started listening on: /private/var/folders/g4/z2_4vbss3qgg9ff8jtrqxxs40000gn/T/8282e0e25e139f5e18e5/d.sock
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.081Z - [WATCHER]: Subscribed to changes within: /Users/jorgecendal/Projects/nx-angular-generators-derived (native)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.087Z - Established a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.087Z - Established a connection. Number of open connections: 2
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.088Z - Closed a connection. Number of open connections: 1
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.088Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.091Z - Time taken for 'loadSpecifiedNxPlugins' 0.5348749999999995ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.142Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.171Z - Time taken for 'Load Nx Plugin: /Users/jorgecendal/Projects/nx-angular-generators-derived/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 82.046125ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.172Z - Time taken for 'Load Nx Plugin: /Users/jorgecendal/Projects/nx-angular-generators-derived/node_modules/nx/src/plugins/package-json' 82.474125ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.172Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.172Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.172Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.174Z - Time taken for 'loadDefaultNxPlugins' 82.952917ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.182Z - Time taken for 'build-project-configs' 3.1538329999999917ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.185Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.185Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.185Z - Time taken for 'total for creating and serializing project graph' 96.917041ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.185Z - Done responding to the client project-graph
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.185Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 97. Response time: 0.
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:52.189Z - Closed a connection. Number of open connections: 0
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.837Z - [WATCHER]: nx.json was modified
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.838Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.938Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.938Z - [REQUEST]: nx.json
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.938Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.939Z - Time taken for 'hash changed files from watcher' 0.3774169999996957ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.940Z - Time taken for 'build-project-configs' 1.58337500000016ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.942Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.942Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.942Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:54.942Z - Time taken for 'total execution time for createProjectGraph()' 0.9658340000000862ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.711Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.712Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.912Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.912Z - [REQUEST]: project.json,package.json,nx.json,docs/RELEASE.md
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.912Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.913Z - Time taken for 'hash changed files from watcher' 0.19862499999999272ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.914Z - Time taken for 'build-project-configs' 1.4666250000000218ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.916Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.916Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.916Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:14:59.916Z - Time taken for 'total execution time for createProjectGraph()' 0.8161249999993743ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:02.613Z - [WATCHER]: docs/RELEASE.md was modified
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:02.613Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.013Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.013Z - [REQUEST]: docs/RELEASE.md
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.013Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.016Z - Time taken for 'hash changed files from watcher' 0.10916700000052515ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.017Z - Time taken for 'build-project-configs' 2.527542000001631ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.019Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.020Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.020Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:03.020Z - Time taken for 'total execution time for createProjectGraph()' 1.197666999998546ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.715Z - [WATCHER]: docs/SETUP.md was created or restored
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.716Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.775Z - [WATCHER]: docs/SETUP.md was created or restored
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.775Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.815Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.816Z - [REQUEST]: docs/SETUP.md
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.816Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.817Z - Time taken for 'hash changed files from watcher' 0.06437500000174623ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.818Z - Time taken for 'build-project-configs' 1.6628750000018044ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.820Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.820Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.820Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:45.820Z - Time taken for 'total execution time for createProjectGraph()' 1.1126250000015716ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.689Z - [WATCHER]: docs/SETUP.md was modified
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.689Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.888Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.888Z - [REQUEST]: docs/SETUP.md
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.888Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.890Z - Time taken for 'hash changed files from watcher' 0.0814170000012382ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.891Z - Time taken for 'build-project-configs' 0.9793750000026193ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.892Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.892Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.892Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.892Z - Time taken for 'total execution time for createProjectGraph()' 0.82666700000118ms

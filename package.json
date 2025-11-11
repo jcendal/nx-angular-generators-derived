@@ -1,0 +1,62 @@
+{
+  "name": "@jcendal/nx-angular-generators-derived",
+  "version": "0.0.0",
+  "description": "Nx Angular generators wrapper that mimics the old 'derived' behavior for component generation.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "nx-angular-generators-derived": "./lib/cli.js"
+  },
+  "scripts": {
+    "g": "node lib/cli.js",
+    "build": "rm -rf lib && webpack --config webpack.config.js && tsc && npm run build:cli && npm run bundle:dts && npm run clean:dts && npm run set-permissions",
+    "build:cli": "tsc src/cli.ts --outDir lib --module commonjs --target es2015 --moduleResolution node --esModuleInterop --skipLibCheck --declaration false && node -e \"const fs = require('fs'); const content = fs.readFileSync('lib/cli.js', 'utf8'); if (!content.startsWith('#!/')) { fs.writeFileSync('lib/cli.js', '#!/usr/bin/env node\\n' + content); }\"",
+    "bundle:dts": "rm -f lib/cli.d.ts || true",
+    "clean:dts": "rm -rf lib/lib",
+    "set-permissions": "node -e \"const fs = require('fs'); const path = require('path'); const cliPath = path.join(__dirname, 'lib', 'cli.js'); if (fs.existsSync(cliPath)) { fs.chmodSync(cliPath, '755'); }\"",
+    "format": "prettier --write \"src/**/*.ts\" \"lib/**/*.ts\"",
+    "release": "nx release",
+    "release:version": "nx release --skip-publish",
+    "release:publish": "nx release --skip-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jcendal/nx-angular-generators-derived.git"
+  },
+  "keywords": [
+    "nx",
+    "angular",
+    "generators",
+    "derived",
+    "component",
+    "wrapper"
+  ],
+  "author": "Jorge Cendal <jorgecendal95@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jcendal/nx-angular-generators-derived",
+  "readmeFilename": "README.md",
+  "files": [
+    "lib/"
+  ],
+  "devDependencies": {
+    "@nx/devkit": "^20.0.0",
+    "@nx/js": "^20.0.0",
+    "dts-bundle": "^0.7.3",
+    "nx": "^20.0.0",
+    "prettier": "^2.8.8",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "volta": {
+    "node": "20.11.0",
+    "npm": "10.4.0"
+  },
+  "engines": {
+    "node": ">=20.11.0",
+    "npm": "^10.2.4",
+    "yarn": "Please use NPM instead of yarn to install dependencies"
+  }
+}
