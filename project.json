@@ -15,7 +15,9 @@
       "executor": "@nx/js:release-publish",
       "options": {
         "packageRoot": ".",
-        "registry": "https://registry.npmjs.org"
+        "registry": "https://registry.npmjs.org",
+        "tag": "latest",
+        "access": "public"
       }
     }
   },

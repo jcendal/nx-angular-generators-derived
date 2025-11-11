@@ -20,6 +20,15 @@
       "cache": true,
       "inputs": ["default", "^default"],
       "outputs": ["{projectRoot}/lib"]
+    },
+    "nx-release-publish": {
+      "executor": "@nx/js:release-publish",
+      "options": {
+        "packageRoot": ".",
+        "registry": "https://registry.npmjs.org",
+        "tag": "latest",
+        "access": "public"
+      }
     }
   },
   "namedInputs": {
