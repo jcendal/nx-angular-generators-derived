@@ -35,25 +35,31 @@ function escapeShellArg(arg: string): string {
 }
 
 /**
- * Builds the Nx command to generate a component
+ * Builds the Nx command to generate a component or library
  */
 function buildNxCommand(
   generatorType: string,
   path: string,
   options: Record<string, string>
 ): string {
-  const lastSegment = getLastPathSegment(path);
-  const fullPath = joinPaths(path, lastSegment);
-
   // Use array to build command more safely
   const commandParts: string[] = [
     'npx',
     'nx',
     'g',
     `@nx/angular:${generatorType}`,
-    escapeShellArg(fullPath),
-    `--name=${escapeShellArg(lastSegment)}`,
   ];
+
+  // For library, use the path as-is without duplicating the last segment
+  if (generatorType === 'library') {
+    commandParts.push(escapeShellArg(path));
+  } else {
+    // For other generators (component, service, etc.), duplicate the last segment
+    const lastSegment = getLastPathSegment(path);
+    const fullPath = joinPaths(path, lastSegment);
+    commandParts.push(escapeShellArg(fullPath));
+    commandParts.push(`--name=${escapeShellArg(lastSegment)}`);
+  }
 
   // Process additional options
   for (const [key, value] of Object.entries(options)) {
@@ -115,6 +121,7 @@ function main() {
       console.error(
         'Example: npm run g component libs/shared/ui/toasts/src/lib/component-name --module=ui-toasts'
       );
+      console.error('Example: npm run g library libs/shared/ui/toasts');
       process.exit(1);
     }
 

@@ -7,6 +7,7 @@ behavior.
 ## ✨ Features
 
 - Simplifies Nx Angular generator syntax
+- Supports component, library, and other Angular generators
 - Automatically duplicates the last path segment for component name
 - Automatically adds `.module.ts` to module names
 - Compatible with Nx 20+
@@ -33,6 +34,20 @@ You can use the simplified syntax:
 npm run g component libs/shared/ui/toasts/src/lib/component-name --module=ui-toasts
 ```
 
+### Generate a library
+
+Instead of using the full Nx command:
+
+```bash
+npx nx g @nx/angular:library libs/shared/asd
+```
+
+You can use the simplified syntax:
+
+```bash
+npm run g library libs/shared/asd
+```
+
 ### Automatic transformation
 
 The wrapper automatically converts:
@@ -41,14 +56,23 @@ The wrapper automatically converts:
 - **Output**:
   `npx nx g @nx/angular:component <path>/<last-segment> --name=<last-segment> --module=<module-name>.module.ts`
 
-### Complete example
+- **Input**: `npm run g library <path>`
+- **Output**: `npx nx g @nx/angular:library <path>`
+
+### Complete examples
 
 ```bash
-# Simplified command
+# Simplified command for component
 npm run g component libs/shared/ui/toasts/src/lib/component-name --module=ui-toasts
 
 # Executed internally as:
 # npx nx g @nx/angular:component libs/shared/ui/toasts/src/lib/component-name/component-name --name=component-name --module=ui-toasts.module.ts
+
+# Simplified command for library
+npm run g library libs/shared/asd
+
+# Executed internally as:
+# npx nx g @nx/angular:library libs/shared/asd
 ```
 
 ## 🛠 API
@@ -57,13 +81,18 @@ npm run g component libs/shared/ui/toasts/src/lib/component-name --module=ui-toa
 
 The `g` script accepts the following arguments:
 
-- `<generator-type>`: Generator type (e.g., `component`, `service`, etc.)
+- `<generator-type>`: Generator type (e.g., `component`, `library`, `service`,
+  etc.)
 - `<path>`: Path where the element will be generated
 - `[--option=value]`: Additional options for the generator
 
-### Special options
+### Special behavior
 
-- `--module`: Automatically adds `.module.ts` to the end of the module name
+- **Components and other generators**: Automatically duplicates the last path
+  segment and adds `--name` option
+- **Library**: Uses the path as-is without modification
+- **`--module` option**: Automatically adds `.module.ts` to the end of the
+  module name
 
 ## ⚙️ Configuration
 
