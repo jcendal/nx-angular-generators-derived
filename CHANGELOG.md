@@ -1,3 +1,13 @@
+## 1.3.0 (2025-11-11)
+
+### 🚀 Features
+
+- add library command ([94bc3b7](https://github.com/jcendal/nx-angular-generators-derived/commit/94bc3b7))
+
+### ❤️ Thank You
+
+- Jorge Cendal @jcendal
+
 ## 1.2.0 (2025-11-11)
 
 ### 🚀 Features
