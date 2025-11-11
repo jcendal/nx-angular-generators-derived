@@ -100,3 +100,19 @@
 [NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.892Z - [SYNC]: project graph hash is the same, not collecting task sync generators
 [NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.892Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX v20.8.2 Daemon Server] - 2025-11-11T07:15:56.892Z - Time taken for 'total execution time for createProjectGraph()' 0.82666700000118ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:23.815Z - [WATCHER]: docs/SETUP.md was modified
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:23.815Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.216Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.216Z - [REQUEST]: docs/SETUP.md
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.216Z - [REQUEST]: 
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.217Z - Time taken for 'hash changed files from watcher' 0.06433300000207964ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.218Z - Time taken for 'build-project-configs' 1.058499999999185ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.219Z - [SYNC]: collect registered sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.219Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.219Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:16:24.219Z - Time taken for 'total execution time for createProjectGraph()' 0.6737920000014128ms
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:17:15.606Z - [WATCHER]: .gitignore was modified
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:17:15.606Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:17:15.606Z - [WATCHER]: Stopping the watcher for /Users/jorgecendal/Projects/nx-angular-generators-derived (sources)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:17:15.606Z - [WATCHER]: Stopping the watcher for /Users/jorgecendal/Projects/nx-angular-generators-derived (outputs)
+[NX v20.8.2 Daemon Server] - 2025-11-11T07:17:15.606Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
