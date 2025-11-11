@@ -1,3 +1,13 @@
+## 1.2.0 (2025-11-11)
+
+### 🚀 Features
+
+- update ([2d685cc](https://github.com/jcendal/nx-angular-generators-derived/commit/2d685cc))
+
+### ❤️ Thank You
+
+- Jorge Cendal @jcendal
+
 ## 1.1.0 (2025-11-11)
 
 ### 🚀 Features
