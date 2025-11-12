@@ -48,6 +48,16 @@ You can use the simplified syntax:
 npm run g library libs/shared/asd
 ```
 
+With import path prefix (optional):
+
+```bash
+npm run g library libs/shared/library --importPathPrefix=@myorg
+```
+
+This will be converted to `--importPath=@myorg/shared/library` in the Nx command
+(prefix + path without `libs/`). If `--importPathPrefix` is not provided or is
+empty, no `--importPath` option will be added to the command.
+
 ### Automatic transformation
 
 The wrapper automatically converts:
@@ -58,6 +68,10 @@ The wrapper automatically converts:
 
 - **Input**: `npm run g library <path>`
 - **Output**: `npx nx g @nx/angular:library <path>`
+
+- **Input**: `npm run g library <path> --importPathPrefix=<prefix>`
+- **Output**:
+  `npx nx g @nx/angular:library <path> --importPath=<prefix>/<path-without-libs>`
 
 ### Complete examples
 
@@ -73,6 +87,12 @@ npm run g library libs/shared/asd
 
 # Executed internally as:
 # npx nx g @nx/angular:library libs/shared/asd
+
+# Simplified command for library with import path prefix
+npm run g library libs/shared/library --importPathPrefix=@myorg
+
+# Executed internally as:
+# npx nx g @nx/angular:library libs/shared/asd --importPath=@myorg/ui/shared/asd
 ```
 
 ## 🛠 API
@@ -93,6 +113,11 @@ The `g` script accepts the following arguments:
 - **Library**: Uses the path as-is without modification
 - **`--module` option**: Automatically adds `.module.ts` to the end of the
   module name
+- **`--importPathPrefix` option (library only, optional)**: If provided and
+  non-empty, combines the prefix with the path (without `libs/`) to create
+  `--importPath`. Example: `libs/shared/library` with prefix `@myorg` becomes
+  `@myorg/shared/library`. If not provided or empty, no `--importPath` option is
+  added.
 
 ## ⚙️ Configuration
 

@@ -66,6 +66,15 @@ function buildNxCommand(
     if (key === 'module') {
       // Add .module.ts to module name
       commandParts.push(`--module=${escapeShellArg(value)}.module.ts`);
+    } else if (generatorType === 'library' && key === 'importPathPrefix') {
+      // Convert importPathPrefix to --importPath by combining prefix with path
+      // Only add --importPath if --importPathPrefix has a non-empty value
+      if (value && value.trim() !== '') {
+        // Remove 'libs/' prefix from path if present, then combine with prefix
+        let pathForImport = path.replace(/^libs\//, '').replace(/\/$/, '');
+        const importPath = joinPaths(value, pathForImport);
+        commandParts.push(`--importPath=${escapeShellArg(importPath)}`);
+      }
     } else {
       commandParts.push(`--${key}=${escapeShellArg(value)}`);
     }
@@ -122,6 +131,9 @@ function main() {
         'Example: npm run g component libs/shared/ui/toasts/src/lib/component-name --module=ui-toasts'
       );
       console.error('Example: npm run g library libs/shared/ui/toasts');
+      console.error(
+        'Example: npm run g library libs/shared/ui/toasts --importPathPrefix=@myorg'
+      );
       process.exit(1);
     }
 
