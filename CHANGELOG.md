@@ -1,3 +1,13 @@
+## 1.4.1 (2025-11-12)
+
+### 🩹 Fixes
+
+- npm token deploy ([fdd1c00](https://github.com/jcendal/nx-angular-generators-derived/commit/fdd1c00))
+
+### ❤️ Thank You
+
+- Jorge Cendal @jcendal
+
 ## 1.4.0 (2025-11-12)
 
 ### 🚀 Features
