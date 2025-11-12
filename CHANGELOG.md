@@ -1,3 +1,13 @@
+## 1.4.0 (2025-11-12)
+
+### 🚀 Features
+
+- library generator now support importPathPrefix to mimic deprecated derived behavior ([29fbb0a](https://github.com/jcendal/nx-angular-generators-derived/commit/29fbb0a))
+
+### ❤️ Thank You
+
+- Jorge Cendal @jcendal
+
 ## 1.3.0 (2025-11-11)
 
 ### 🚀 Features
